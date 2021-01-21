@@ -159,11 +159,12 @@ main .inferior_frame {
   float: right;
   font-size: 1.1em;
 }
-.iframe_text h2, p, a{
+.iframe_text h2{
   margin: 1.5vh auto;
 }
 .iframe_text p {
   color: grey;
+  margin: 1.5vh auto;
 }
 .iframe_text a {
   color: blue;
@@ -194,7 +195,7 @@ footer {
 }
 .container_right ul li {
   display: inline-table;
-  padding-left: 4vw;
+  padding-left: 3.5vw;
   color: grey;
 }
 .container_right ul li:nth-child(2) {
@@ -208,13 +209,13 @@ footer {
   display: table;
   clear: both;
 }
-footer a.border.green.last {
+footer a:nth-child(2){
   position: fixed;
   width: 6%;
   line-height: 2vh;
   height: 4vh;
   text-align: center;
   padding: 8px;
-  bottom:-1.5vh;
+  bottom: 0;
   right: 5vw;
 }
