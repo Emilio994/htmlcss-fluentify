@@ -61,7 +61,7 @@ header a {
   background-color: #1bd01b;
   color: white;
 }
-header a.border.green {
+nav a.border.green {
   padding: 0.5em;
 }
 
