@@ -159,7 +159,7 @@ main .inferior_frame {
   float: right;
   font-size: 1.1em;
 }
-.iframe_text h2, p, a,{
+.iframe_text h2, p, a{
   margin: 1.5vh auto;
 }
 .iframe_text p {
@@ -215,6 +215,6 @@ footer a.border.green.last {
   height: 4vh;
   text-align: center;
   padding: 8px;
-  bottom:0;
+  bottom:-1.5vh;
   right: 5vw;
 }
