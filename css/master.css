@@ -21,12 +21,10 @@ nav {
   width: 90%;
   height: 20%;
 }
-
 nav img {
   margin-right: 3.5vw;
   float: left;
 }
-
 nav ul {
   list-style: none;
   line-height: 7vh;
@@ -44,6 +42,9 @@ header a {
   color: white;
   font-size: 0.9em;
 }
+nav a.border.green {
+  padding: 0.8em;
+}
 
 .border {
   border-radius: 5px;
@@ -58,9 +59,7 @@ header a {
   background-color: #7ace1ed6;
   color: white;
 }
-nav a.border.green {
-  padding: 0.8em;
-}
+
 
 div.banner_container {
   width: 95%;
@@ -79,7 +78,6 @@ div.banner_container {
   line-height: 1.1em;
   color: white;
 }
-
 .banner_text a {
   padding: 3.5%;
 }
@@ -129,9 +127,15 @@ main .superior_frame {
 .column h2 {
   color: #7ace1ed6;
 }
+.center.column h2{
+  margin-bottom: 4.8vh;
+}
 .column hr {
   width: 20%;
   margin: 2.5vh auto;
+}
+.column p {
+  line-height: 2.5vh;
 }
 main .superior_frame:after {
   content: "";
