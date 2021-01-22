@@ -127,15 +127,9 @@ main .superior_frame {
 .column h2 {
   color: #7ace1ed6;
 }
-.center.column h2{
-  margin-bottom: 4.8vh;
-}
 .column hr {
   width: 20%;
   margin: 2.5vh auto;
-}
-.column p {
-  line-height: 2.5vh;
 }
 main .superior_frame:after {
   content: "";
