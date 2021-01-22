@@ -4,7 +4,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 body {
   font-family: 'Lato', sans-serif;
 }
@@ -126,6 +125,7 @@ main .superior_frame {
 }
 .column h2 {
   color: #7ace1ed6;
+  min-height: 60px;
 }
 .column hr {
   width: 20%;
@@ -205,11 +205,9 @@ footer {
   display: table;
   clear: both;
 }
-footer a:nth-child(2){
+footer + a{
   position: fixed;
-  width: 6%;
-  line-height: 2vh;
-  height: 4vh;
+  width: 4%;
   text-align: center;
   padding: 8px;
   bottom: 0;
