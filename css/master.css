@@ -12,7 +12,7 @@ body {
 /* Header */
 header {
   height: 55vh;
-  background-color: #001371d1;
+  background-color: #0d325a;
 }
 
 nav {
@@ -23,15 +23,12 @@ nav {
 }
 
 nav img {
-  margin-right: 2.5vw;
+  margin-right: 3.5vw;
   float: left;
 }
 
 nav ul {
-  display: inline-block;
   list-style: none;
-}
-nav ul {
   line-height: 7vh;
   float: left;
 }
@@ -45,7 +42,7 @@ nav ul li {
 header a {
   text-decoration: none;
   color: white;
-  font-size: 14px;
+  font-size: 0.9em;
 }
 
 .border {
@@ -54,15 +51,15 @@ header a {
 }
 .border.empty {
   border: 1px solid;
-  padding: 0.5em 2vw;
+  padding: 0.8em 2vw;
 }
 .border.green {
-  border: 1px solid #1bd01b;
-  background-color: #1bd01b;
+  border: 1px solid #7ace1ed6;
+  background-color: #7ace1ed6;
   color: white;
 }
 nav a.border.green {
-  padding: 0.5em;
+  padding: 0.8em;
 }
 
 div.banner_container {
@@ -79,12 +76,12 @@ div.banner_container {
 .banner_text h1 {
   font-size: 3.5em;
   margin-bottom: 5vh;
-  line-height: 1.2em;
+  line-height: 1.1em;
   color: white;
 }
 
 .banner_text a {
-  padding: 3%;
+  padding: 3.5%;
 }
 .banner_image {
   width: 70%;
@@ -130,7 +127,7 @@ main .superior_frame {
   margin-bottom: 2vh;
 }
 .column h2 {
-  color: #1bd01b;
+  color: #7ace1ed6;
 }
 .column hr {
   width: 20%;
@@ -203,6 +200,7 @@ footer {
 }
 .container_right a {
   padding: 15px;
+  font-size: 14px;
 }
 .footer_container {
   content: "";
@@ -218,4 +216,5 @@ footer a:nth-child(2){
   padding: 8px;
   bottom: 0;
   right: 5vw;
+  font-size: 14px;
 }
